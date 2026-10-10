@@ -8,12 +8,13 @@
 
 <div align="center">
 
-<!-- Continuous Loop Motivation Video / Animation Banner -->
-<video src="assets/videos/demo_loop.mp4" autoplay loop muted playsinline width="100%" poster="assets/images/demo_poster.png">
-  <img src="assets/videos/demo_loop.gif" alt="Franka Emika Panda MuJoCo Pushing Demo" width="100%">
-</video>
+<!-- Continuous Loop Motivation Banner -->
+<img src="assets/videos/demo_loop.gif" alt="Franka Emika Panda MuJoCo Pushing Demo" width="100%">
 
-*Franka Emika Panda executing continuous trajectory-following non-prehensile push manipulation in MuJoCo.*
+<p>
+  <em>Franka Emika Panda executing continuous trajectory-following non-prehensile push manipulation in MuJoCo.</em><br>
+  <sub>[🎥 <a href="assets/videos/demo_loop.mp4">Watch / Download HD Video (MP4)</a>] &nbsp;|&nbsp; [🎥 <a href="assets/videos/franka_scurve_push.mp4">Full 12.5s Trajectory Run (MP4)</a>]</sub>
+</p>
 
 </div>
 
@@ -29,12 +30,13 @@ In modern industrial automation and logistics, robots frequently interact with o
 
 **Non-prehensile manipulation (pushing and sliding)** overcomes these limits by utilizing unilateral contact. Rather than lifting an entire payload, pushing allows lightweight manipulators to transport heavy objects across surfaces, greatly extending the effective operational workspace.
 
-```
-       [ Grasping / Prehensile ]                [ Pushing / Non-Prehensile ]
-        Requires force closure                    Unilateral contact forces only
-         Limited by gripper opening               Handles oversized / heavy items
-         Higher energy expenditure                Leverages support surface mechanics
-```
+<div align="center">
+
+<img src="assets/images/robotic_manipulation.png" alt="Taxonomy of Robotic Manipulation" width="90%">
+
+*Taxonomy of robotic manipulation: distinguishing free-space motion, prehensile (grasping), and non-prehensile contact interactions (pushing).*
+
+</div>
 
 ### The Physics and Control Challenges
 While pushing offers great flexibility, precise trajectory control is difficult due to several physical phenomena:
@@ -140,7 +142,7 @@ The system was tested across three benchmark trajectories of increasing difficul
 
 | Complete S-Curve Trajectory Push (12.5s) | Dynamic Contact & Curvature Negotiation |
 | :---: | :---: |
-| <video src="assets/videos/franka_scurve_push.mp4" autoplay loop muted playsinline width="100%"><img src="assets/videos/franka_scurve_push.gif" width="100%"></video> | <video src="assets/videos/demo_loop.mp4" autoplay loop muted playsinline width="100%"><img src="assets/videos/demo_loop.gif" width="100%"></video> |
+| <img src="assets/videos/franka_scurve_push.gif" alt="Full S-Curve Path Execution" width="100%"> | <img src="assets/videos/demo_loop.gif" alt="Curvature Reversal & Force Modulation" width="100%"> |
 | **Full S-Curve Path Execution**<br>*End-to-end trajectory tracking from start pose to target goal without contact loss.*<br>[🎥 Download Full Run (MP4)](assets/videos/franka_scurve_push.mp4) | **Curvature Reversal & Force Modulation**<br>*Adaptive normal and tangential force modulation through the sharp inflection point.*<br>[🎥 Download HD Clip (MP4)](assets/videos/demo_loop.mp4) |
 
 </div>
