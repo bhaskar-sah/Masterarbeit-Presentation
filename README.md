@@ -8,12 +8,14 @@
 
 <div align="center">
 
-<!-- Continuous Loop Motivation Banner -->
-<img src="assets/videos/demo_loop.gif" alt="Franka Emika Panda MuJoCo Pushing Demo" width="100%">
+<!-- Looping Simulation Demo (GIF) -->
+<a href="assets/videos/franka_scurve_push.mp4">
+  <img src="assets/videos/franka_push_simulation.gif" alt="Franka Emika Panda MuJoCo Pushing Simulation" width="100%">
+</a>
 
 <p>
-  <em>Franka Emika Panda executing continuous trajectory-following non-prehensile push manipulation in MuJoCo.</em><br>
-  <sub>[🎥 <a href="assets/videos/demo_loop.mp4">Watch / Download HD Video (MP4)</a>] &nbsp;|&nbsp; [🎥 <a href="assets/videos/franka_scurve_push.mp4">Full 12.5s Trajectory Run (MP4)</a>]</sub>
+  <strong>🎬 Simulation in Motion:</strong> <em>Autonomous Franka Emika Panda executing continuous trajectory-following non-prehensile push control along an S-curve path in MuJoCo.</em><br>
+  <sub>[🎥 <a href="assets/videos/franka_scurve_push.mp4">Watch Full 12.5s Video (MP4)</a>] &nbsp;|&nbsp; [⚡ <a href="assets/videos/demo_loop.mp4">Close-Up Inflection Point (MP4)</a>]</sub>
 </p>
 
 </div>
