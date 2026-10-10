@@ -6,6 +6,13 @@
 [![Stable--Baselines3](https://img.shields.io/badge/RL-Stable--Baselines3-brightgreen.svg)](https://github.com/DLR-RM/stable-baselines3)
 [![Institution](https://img.shields.io/badge/TUM-Chair%20of%20Robotics%2C%20AI%20%26%20Real--time%20Systems-0065BD.svg)](https://www.ce.cit.tum.de/air/)
 
+> [!NOTE]
+> **Code Availability & Academic Policy / Hinweis zur Code-Verfügbarkeit**
+>
+> 🇬🇧 **English:** Due to university intellectual property guidelines and academic policy at TU München, the full implementation codebase is hosted in a private repository. I am very glad to present the code, explain the software architecture, and provide a live walkthrough during an interview or personal technical meeting.
+>
+> 🇩🇪 **Deutsch:** Aufgrund der Richtlinien zum Schutz des geistigen Eigentums sowie universitärer Vorgaben der TU München (IP- & Vertraulichkeitsrichtlinien) ist der vollständige Quellcode in einem privaten Repository hinterlegt. Sehr gerne präsentiere ich den Code, die Softwarearchitektur sowie eine Live-Demonstration im Rahmen eines persönlichen Gesprächs oder Interviews.
+
 <div align="center">
 
 <!-- Looping Simulation Demo (GIF) -->
@@ -170,17 +177,9 @@ Evaluation across 100 randomized test trials per trajectory:
 
 ---
 
-## Quick Start
+## Code Access & Live Demonstration
 
-```bash
-# 1. Clone repository and install dependencies
-git clone https://github.com/bhaskar-sah/Masterarbeit-Presentation.git
-cd Masterarbeit-Presentation
-pip install -r requirements.txt
+The complete implementation (custom Gymnasium environments, reward shaping modules, PPO training pipelines, and ONNX deployment wrappers) is maintained in a private repository in compliance with university academic guidelines.
 
-# 2. Run interactive MuJoCo simulation visualizer
-python scripts/run_simulation.py --trajectory s_curve --render
-
-# 3. Train policy from scratch with PPO
-python scripts/train_ppo.py --num-envs 8 --total-timesteps 2000000
-```
+- 💬 **Technical Walkthrough:** If you are a recruiter, engineer, or researcher interested in reviewing the code, discussing the software design, or seeing a live interactive run, I am glad to arrange a code walkthrough and demonstration.
+- ✉️ **Contact:** Feel free to connect via [LinkedIn](https://linkedin.com) or email to request access or schedule a session.
