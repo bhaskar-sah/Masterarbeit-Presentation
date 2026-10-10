@@ -138,10 +138,10 @@ The system was tested across three benchmark trajectories of increasing difficul
 
 <div align="center">
 
-| S-Curve Dynamic Trajectory | Cubic Bézier Curve Tracking |
+| Complete S-Curve Trajectory Push (12.5s) | Dynamic Contact & Curvature Negotiation |
 | :---: | :---: |
-| <video src="assets/videos/franka_scurve_push.mp4" autoplay loop muted playsinline width="100%"><img src="assets/videos/franka_scurve_push.gif" width="100%"></video> | <video src="assets/videos/franka_bezier_push.mp4" autoplay loop muted playsinline width="100%"><img src="assets/videos/franka_bezier_push.gif" width="100%"></video> |
-| *Learned policy adapting force across the curvature reversal point.* | *Smooth contact maintenance through continuous curve.* |
+| <video src="assets/videos/franka_scurve_push.mp4" autoplay loop muted playsinline width="100%"><img src="assets/videos/franka_scurve_push.gif" width="100%"></video> | <video src="assets/videos/demo_loop.mp4" autoplay loop muted playsinline width="100%"><img src="assets/videos/demo_loop.gif" width="100%"></video> |
+| **Full S-Curve Path Execution**<br>*End-to-end trajectory tracking from start pose to target goal without contact loss.*<br>[🎥 Download Full Run (MP4)](assets/videos/franka_scurve_push.mp4) | **Curvature Reversal & Force Modulation**<br>*Adaptive normal and tangential force modulation through the sharp inflection point.*<br>[🎥 Download HD Clip (MP4)](assets/videos/demo_loop.mp4) |
 
 </div>
 
